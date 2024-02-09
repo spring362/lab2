@@ -4,7 +4,7 @@ h1{
 
 .infoData{
   width: 95%;
-  height: 30x;
+  height: 30px;
   font-size: 20px;
   font-family: serif;
   padding: 2px 5px;
@@ -13,7 +13,7 @@ h1{
 }
 
 .formButton{
-  wdith: 95%;
+  width: 95%;
 }
 
 @media screen and (max-width: 520px){
