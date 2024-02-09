@@ -4,7 +4,7 @@
   <title>Lab 2</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
@@ -12,18 +12,18 @@
   <form method="POST" autocomplete="on" action="#null">
   <fieldset>
   <legend>Personal Info</legend>
-    <div>
+    <div class="infoData">
       <label>Email Address: <input type="email" name="email_field" placeholder="example@email.com" ></label>
     </div>
-    <div>
+    <div class="infoData">
       <label>Phone Number: <input type="phoneNum" name="phone_field" placeholder="012-345-6789" ></label>
-    </div>
+    </div class="infoData">
     <div>
       <label>Date of Birth: <input type="dateBirth" name="DOB_field" placeholder="01/23/4567" ></label>
     </div>
   </fieldset>
     <input type="submit" value="Submit info">
-    <input type="reset" value="clear form">
+    <input type="reset" value="Clear form">
   </form>
 </body>
 </html>
